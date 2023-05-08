@@ -11,12 +11,6 @@ _The app supports the following actions:_
 
 The `createPart()` function creates a part in the inventory. The create command has the following parameters:
 
--   part number - The part number of the part to create.
--   description (or part type) - The description of the part to create
--   quantity - How many of the part to create.
--   cost - The cost of each fastener.
--   TODO: add more info...
-
 **Read**
 
 The `readPart()` function reads all of the parts from the inventory.
@@ -40,4 +34,3 @@ The `exit()` function exits the app.
 2. The app will prompt the user to enter an option 1, 2, 3, 4, or 5.
 
 3. The app will then perform the crud operation and return the results to the user.
-
