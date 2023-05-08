@@ -11,26 +11,38 @@ _The app supports the following actions:_
 
 The `createPart()` function creates a part in the inventory. The create command has the following parameters:
 
-**Read**
+### Read
 
 The `readPart()` function reads all of the parts from the inventory.
 
-**Update**
+### Update
 
 The `updatePart` updates the quantity present in the inventory.
 
-**Delete**
+### Delete
 
 The `deletePart()` function deletes a part from the inventory.
 
-**Exit**
+### Exit
 
 The `exit()` function exits the app.
 
+---
+
+### Installation
+
+Install the NuGet package via `dotnet add package System.Data.SQLite --version 1.0.117` to use SQLite3 with C#.
+
+To install the app, clone the repo and run the app with `dotnet watch run` or `dotnet run`.
+
+`git clone https://github.com/jim3/Parts-IMS-CLI.git`
+
+`cd Parts-IMS-CLI`
+
+`dotnet watch run` or `dotnet run`
+
 **Usage**
 
-1. To use the app, run `dotnet build`, then `dotnet run` in your VS Code integrated terminal.
+// TODO
 
-2. The app will prompt the user to enter an option 1, 2, 3, 4, or 5.
-
-3. The app will then perform the crud operation and return the results to the user.
+---
