@@ -1,7 +1,5 @@
 ## Inventory Management System CLI App (C#)
 
----
-
 ### Description
 
 This is a CLI app for an inventory management system (for parts). It allows the user to `Create`, `Read`, `Update`, and `Delete` parts in an inventory.
